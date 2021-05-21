@@ -1,0 +1,67 @@
+div{border: 3px solid yellow;
+    color:blue; text-align: center; background-color: yellowgreen; 
+}
+h1{font-family: initial ;
+
+}
+h2{padding:20px;text-align: inherit;
+}
+
+body{padding: 20px; margin: 20px;
+}
+p{text-align: center;
+}
+table{border: 1px solid yellowgreen;
+    border-collapse: collapse;
+}
+td,th{border: 1px solid green;
+    padding:5px;
+}
+#good{ color:indianred;
+
+}
+.great{color:indigo;
+
+}
+a[href="https://facebook.com"]{
+    color:red
+}
+button{color:green; width: 80px; height: 30px; background-color: hotpink;
+}
+button:hover{background-color: red;
+}
+@media(min-width:600px){
+    body{background-color: purple;
+
+    }
+}
+@media(max-width:599px){
+    body{background-color: silver;
+
+    }
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+}
+#container>div{
+    background-color: steelblue;
+    width: 100px;
+    margin: 20px;
+    padding: 20px;
+}
+#grid{
+    background-color: purple;
+    display: grid;
+    padding: 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    grid-template-columns: 200px 200px auto;
+}
+
+.grid-items{
+    background-color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
